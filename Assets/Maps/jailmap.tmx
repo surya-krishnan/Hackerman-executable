@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="14" height="12" tilewidth="32" tileheight="32" nextobjectid="51">
+ <tileset firstgid="1" name="CellFloor" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="cellfloor.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="blocked" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="tutorialfloor.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="blocked"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="JailFloor" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="jailfloor.png" width="32" height="32"/>
+ </tileset>
+ <layer name="blocked" width="14" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAZhIxA5X0kQpG9Q2sPkYoppc+APZwAIk=
+  </data>
+ </layer>
+ <objectgroup name="wall">
+  <object id="47" x="224" y="0">
+   <polyline points="0,0 -160,0 -160,320 -224,320 -224,384 -96,384 -96,64 224,64 224,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="victory">
+  <object id="50" x="384" y="0" width="64" height="64">
+   <properties>
+    <property name="X" type="float" value="384"/>
+    <property name="Y" type="float" value="320"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="hackwalls"/>
+ <objectgroup name="routers"/>
+ <objectgroup name="hacks"/>
+ <objectgroup name="guards"/>
+</map>

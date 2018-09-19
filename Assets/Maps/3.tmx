@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="30" tilewidth="32" tileheight="32" nextobjectid="29">
+ <tileset firstgid="1" name="floor" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="floor.png" width="32" height="32"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="45" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+1,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+1,1,1,0,0,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="wall">
+  <object id="1" x="0" y="416">
+   <polyline points="0,0 0,128 96,128 96,96 160,96 160,224 512,224 512,544 576,544 576,416 704,416 704,544 1312,544 1312,416 1344,416 1344,448 1440,448 1440,320 1344,320 1344,352 1312,352 1312,224 1120,224 1120,-192 864,-192 864,-288 928,-288 928,-256 1056,-256 1056,-384 928,-384 928,-352 864,-352 864,-416 640,-416 640,-288 576,-288 576,-320 480,-320 480,-288 384,-288 384,-192 160,-192 160,32 96,32 96,0 0,0"/>
+  </object>
+  <object id="2" x="224" y="288">
+   <polyline points="0,0 0,288 352,288 352,480 480,480 480,288 672,288 672,192 800,192 800,352 544,352 544,608 1024,608 1024,416 832,416 832,0 576,0 576,-224 480,-224 480,-96 224,-96 224,192 320,192 320,160 416,160 416,192 576,192 576,64 768,64 768,128 768,160 640,160 640,256 160,256 160,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="guards">
+  <object id="21" x="544" y="928" width="16" height="16">
+   <properties>
+    <property name="XY" type="bool" value="true"/>
+    <property name="constant" type="float" value="528"/>
+    <property name="end" type="float" value="288"/>
+    <property name="start" type="float" value="32"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="22" x="736" y="928" width="16" height="16">
+   <properties>
+    <property name="XY" type="bool" value="true"/>
+    <property name="constant" type="float" value="720"/>
+    <property name="end" type="float" value="288"/>
+    <property name="start" type="float" value="32"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="23" x="1280" y="928" width="16" height="16">
+   <properties>
+    <property name="XY" type="bool" value="true"/>
+    <property name="constant" type="float" value="1264"/>
+    <property name="end" type="float" value="260"/>
+    <property name="start" type="float" value="32"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="27" x="640" y="160" width="16" height="16">
+   <properties>
+    <property name="XY" type="bool" value="false"/>
+    <property name="constant" type="float" value="784"/>
+    <property name="end" type="float" value="448"/>
+    <property name="start" type="float" value="640"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="28" x="832" y="256" width="16" height="16">
+   <properties>
+    <property name="XY" type="bool" value="true"/>
+    <property name="constant" type="float" value="816"/>
+    <property name="end" type="float" value="900"/>
+    <property name="start" type="float" value="736"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="victory">
+  <object id="3" x="928" y="480" width="64" height="64">
+   <properties>
+    <property name="X" type="float" value="928"/>
+    <property name="Y" type="float" value="416"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="hacks">
+  <object id="4" name="1" x="800" y="448">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Type" value="door"/>
+    <property name="Width" type="float" value="64"/>
+    <property name="X" type="float" value="800"/>
+    <property name="Y" type="float" value="508"/>
+    <property name="up" type="bool" value="false"/>
+   </properties>
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="13" name="1" x="160" y="288">
+   <properties>
+    <property name="Height" type="float" value="20"/>
+    <property name="NESW" type="float" value="0"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="10"/>
+    <property name="X" type="float" value="186"/>
+    <property name="Y" type="float" value="736"/>
+   </properties>
+   <polygon points="0,0 32,-64 64,0"/>
+  </object>
+  <object id="9" name="1" x="0" y="480">
+   <properties>
+    <property name="Height" type="float" value="10"/>
+    <property name="NESW" type="float" value="1"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="20"/>
+    <property name="X" type="float" value="-20"/>
+    <property name="Y" type="float" value="474"/>
+   </properties>
+   <polygon points="0,0 64,32 64,-32"/>
+  </object>
+  <object id="10" name="2" x="672" y="0">
+   <properties>
+    <property name="Height" type="float" value="10"/>
+    <property name="NESW" type="float" value="1"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="20"/>
+    <property name="X" type="float" value="620"/>
+    <property name="Y" type="float" value="922"/>
+   </properties>
+   <polygon points="-32,32 32,64 32,0"/>
+  </object>
+  <object id="11" name="3" x="1056" y="288">
+   <properties>
+    <property name="Height" type="float" value="10"/>
+    <property name="NESW" type="float" value="3"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="20"/>
+    <property name="X" type="float" value="1120"/>
+    <property name="Y" type="float" value="699"/>
+   </properties>
+   <polygon points="0,0 64,-32 0,-64"/>
+  </object>
+  <object id="12" name="4" x="992" y="960">
+   <properties>
+    <property name="Height" type="float" value="20"/>
+    <property name="NESW" type="float" value="2"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="10"/>
+    <property name="X" type="float" value="987"/>
+    <property name="Y" type="float" value="-20"/>
+   </properties>
+   <polygon points="0,0 -32,-64 32,-64"/>
+  </object>
+  <object id="16" name="4" x="512" y="640">
+   <properties>
+    <property name="Height" type="float" value="20"/>
+    <property name="NESW" type="float" value="0"/>
+    <property name="Type" value="cam"/>
+    <property name="Width" type="float" value="10"/>
+    <property name="X" type="float" value="538"/>
+    <property name="Y" type="float" value="384"/>
+   </properties>
+   <polygon points="0,0 32,-64 64,0"/>
+  </object>
+  <object id="6" name="1" x="160" y="448">
+   <properties>
+    <property name="Height" type="float" value="64"/>
+    <property name="Type" value="door"/>
+    <property name="Width" type="float" value="4"/>
+    <property name="X" type="float" value="156"/>
+    <property name="Y" type="float" value="448"/>
+    <property name="up" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 0,64"/>
+  </object>
+  <object id="5" name="2" x="384" y="224">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Type" value="door"/>
+    <property name="Width" type="float" value="64"/>
+    <property name="X" type="float" value="384"/>
+    <property name="Y" type="float" value="736"/>
+    <property name="up" type="bool" value="false"/>
+   </properties>
+   <polyline points="0,0 64,0"/>
+  </object>
+  <object id="7" x="864" y="64">
+   <properties>
+    <property name="Height" type="float" value="64"/>
+    <property name="Type" value="door"/>
+    <property name="Width" type="float" value="4"/>
+    <property name="X" type="float" value="862"/>
+    <property name="Y" type="float" value="800"/>
+    <property name="up" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 0,64"/>
+  </object>
+  <object id="8" name="3" x="1312" y="768">
+   <properties>
+    <property name="Height" type="float" value="64"/>
+    <property name="Type" value="door"/>
+    <property name="Width" type="float" value="4"/>
+    <property name="X" type="float" value="1312"/>
+    <property name="Y" type="float" value="128"/>
+    <property name="up" type="bool" value="true"/>
+   </properties>
+   <polyline points="0,0 0,64"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="routers">
+  <object id="14" name="2" x="16" y="508" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="16"/>
+    <property name="Width" type="float" value="16"/>
+    <property name="X" type="float" value="16"/>
+    <property name="Y" type="float" value="436"/>
+   </properties>
+  </object>
+  <object id="15" name="1" x="815" y="384" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="16"/>
+    <property name="Width" type="float" value="16"/>
+    <property name="X" type="float" value="815"/>
+    <property name="Y" type="float" value="560"/>
+   </properties>
+  </object>
+  <object id="17" name="3" x="992" y="96" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="16"/>
+    <property name="Width" type="float" value="16"/>
+    <property name="X" type="float" value="992"/>
+    <property name="Y" type="float" value="848"/>
+   </properties>
+  </object>
+  <object id="19" name="4" x="1376" y="800" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="16"/>
+    <property name="Width" type="float" value="16"/>
+    <property name="X" type="float" value="1376"/>
+    <property name="Y" type="float" value="144"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

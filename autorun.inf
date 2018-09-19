@@ -1,0 +1,4 @@
+[autorun]
+shellexecute=Hackerman.jar
+icon=Assets/Menu/icon.ico
+label=Hackerman
