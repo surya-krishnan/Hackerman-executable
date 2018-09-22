@@ -22,6 +22,7 @@ Either click on Hackerman.jar or log.bat and enjoy!
 ## Authors
 
 * **Surya Krishnan** [Github](https://github.com/krsh2001)
+* **David Nash** [Github](https://github.com/david-nash)
 
 ## License
 
